@@ -1,0 +1,62 @@
+
+*{
+    overflow-x: hidden;
+}
+table{
+    text-align: center;
+    /* border: solid black; */
+}
+h1{
+  color: crimson;
+  margin-left: 60px;
+}
+ 
+
+
+th{
+     width: 600px;
+    height: 50px;
+    background-color: rgba(255, 145, 145, 0.36);
+   border:none
+}
+
+td{
+    /* border: solid black; */
+    height: 70px;
+    background-color: rgba(247, 247, 247, 0.508);
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center; 
+  }
+  
+  td, th {
+    height: 50px;
+    vertical-align: middle;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #ffc8c8;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ecb0b0b5;
+  }
+  
+  /* tr:hover {
+    background-color: #edabab;
+  } */
+  
+  
+    

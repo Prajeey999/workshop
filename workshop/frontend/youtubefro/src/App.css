@@ -1,0 +1,115 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@200&display=swap');
+
+*{
+  font-family: 'Anton', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-weight: 700;
+}
+form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-family: 'Anton', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+.goo{
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.hii{
+ 
+  border: none;
+  width: 200px;
+}
+#formSubName{
+  
+  height: 30px;
+  /* margin-left: 40px; */
+  margin-top: 10px;
+  display: flex;
+  flex-direction:row-reverse;
+  justify-content: center;
+  align-items: center;
+  /* gap: 90px; */
+}
+
+h1{
+  color: crimson;
+  margin-left: 60px;
+}
+
+/* 16 */
+
+.btn-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: none;
+  width: 130px;
+  height: 40px;
+  color: #000000b4;
+  border-radius: 5px;
+  /* padding: 10px 25px; */
+  /* font-family: 'Lato', sans-serif; */
+  font-weight: 1000;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+/* .btn-primary {
+  border: none;
+  color: #000;
+} */
+.btn-primary:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  direction: rtl;
+  z-index: -1;
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+.btn-primary:hover {
+  color: #000;
+}
+.btn-primary:hover:after {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+.btn-primary:active {
+  top: 2px;
+}
+
+
+
+
+
+
+
+
+
+
